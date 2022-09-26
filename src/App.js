@@ -1,12 +1,17 @@
 import "./App.css";
-import Landing from "./pages/Landing";
-import Event from "./pages/Event";
+import Landing from "./components/Landing/Landing";
+import Event from "./components/Event/Event";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Landing />
-      <Event />
+      <Routes>
+        <Route exact path="/" element={<Landing />} />
+        <Route path="/event" element={<Event />} />
+      </Routes>
+      {/* <Landing />
+    <Event /> */}
     </>
   );
 }

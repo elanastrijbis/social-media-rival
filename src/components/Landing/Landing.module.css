@@ -1,0 +1,16 @@
+.landingContainer {
+  background: #f6f2ff;
+  min-height: 100vh;
+  display: flex;
+}
+
+@media only screen and (max-width: 375px) {
+  .landingContainer {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .landingContainer {
+    flex-direction: column;
+  }
+}

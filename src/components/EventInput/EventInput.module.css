@@ -1,0 +1,207 @@
+.eventInputOuterContainer {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: -133px;
+}
+
+h1 {
+  color: #240d57;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: -9px;
+  width: 446px;
+}
+
+h2 {
+  color: #828282;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.details {
+  padding-top: 40px;
+}
+
+.calendarIcon {
+  max-width: 56px;
+  height: fit-content;
+}
+
+.locationIcon {
+  max-width: 56px;
+  height: fit-content;
+}
+
+.stroke {
+  max-width: 14px;
+  height: fit-content;
+  margin-left: auto;
+}
+
+.dateContainer {
+  display: flex;
+  align-items: center;
+  max-width: 446px;
+}
+
+.locationContainer {
+  display: flex;
+  align-items: center;
+  width: 446px;
+}
+
+.detailsHeader {
+  display: flex;
+  color: #240d57;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: -19px;
+}
+
+.detailsDescription {
+  display: flex;
+  color: #4f4f4f;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* MEDIA QUERIES  */
+@media only screen and (max-width: 375px) {
+  .eventInputOuterContainer {
+    flex-direction: column;
+    top: 0px;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    width: 275px;
+  }
+
+  h2 {
+    color: #828282;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .details {
+    max-width: 275px;
+    padding-top: 40px;
+  }
+
+  .calendarIcon {
+    max-width: 40px;
+    height: fit-content;
+  }
+
+  .locationIcon {
+    max-width: 40px;
+    height: fit-content;
+  }
+
+  .stroke {
+    max-width: 14px;
+    height: fit-content;
+    margin-left: auto;
+  }
+
+  .dateContainer {
+    display: flex;
+    align-items: center;
+    max-width: 275px;
+  }
+
+  .locationContainer {
+    display: flex;
+    align-items: center;
+    width: 275px;
+  }
+
+  .detailsHeader {
+    display: flex;
+    color: #240d57;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: -19px;
+  }
+
+  .detailsDescription {
+    display: flex;
+    color: #4f4f4f;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .eventInputOuterContainer {
+    flex-direction: column;
+    top: 0px;
+    align-items: normal;
+    padding-left: 180px;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 335px;
+  }
+
+  h2 {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .details {
+    max-width: 335px;
+    padding-top: 20px;
+  }
+
+  .calendarIcon {
+    max-width: 40px;
+    height: fit-content;
+  }
+
+  .locationIcon {
+    max-width: 40px;
+    height: fit-content;
+  }
+
+  .stroke {
+    max-width: 14px;
+    height: fit-content;
+    margin-left: auto;
+  }
+
+  .dateContainer {
+    display: flex;
+    align-items: center;
+    max-width: 335px;
+  }
+
+  .locationContainer {
+    display: flex;
+    align-items: center;
+    width: 335px;
+  }
+
+  .detailsHeader {
+    display: flex;
+    color: #240d57;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: -19px;
+  }
+
+  .detailsDescription {
+    display: flex;
+    color: #4f4f4f;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

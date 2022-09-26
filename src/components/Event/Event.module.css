@@ -1,0 +1,17 @@
+.eventContainer {
+  background: #fbfaff;
+  min-height: 100vh;
+  display: flex;
+}
+
+@media only screen and (max-width: 375px) {
+  .eventContainer {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .eventContainer {
+    flex-direction: column;
+  }
+}
